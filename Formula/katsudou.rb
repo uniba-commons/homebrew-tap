@@ -1,15 +1,15 @@
 class Katsudou < Formula
   desc "katsudou CLI"
   homepage "https://github.com/uniba-commons/katsudou"
-  version "0.0.6"
+  version "0.0.8"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://releases.teambrew.tools/cli/v0.0.6/katsudou-darwin-arm64"
-      sha256 "21b9e6c046a1098abd78f2d44267ecb8287e6f063a139c08f491449e888d160f"
+      url "https://releases.teambrew.tools/cli/v0.0.8/katsudou-darwin-arm64"
+      sha256 "82d2bd487440b48f3f0dbec0fb262e5b3c2c23a82d1bf5651ac4cf90956a9caa"
     else
-      url "https://releases.teambrew.tools/cli/v0.0.6/katsudou-darwin-x64"
-      sha256 "ef552bf903ecdcb45596c3aa4f3d0d341714062b97ec068c912a482a6f2b3879"
+      url "https://releases.teambrew.tools/cli/v0.0.8/katsudou-darwin-x64"
+      sha256 "785912c494bf935f8f035356ac3e62037d32485d1e70654d34270cc109c250e3"
     end
   end
 
