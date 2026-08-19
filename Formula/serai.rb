@@ -1,15 +1,15 @@
 class Serai < Formula
   desc "Distributed file sharing system for sharing \"nanika\""
   homepage "https://github.com/uniba-commons/serai"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/uniba-commons/serai/releases/download/v0.1.0/serai-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a518a697828209c40933896a3b641892e35aca69c4db721f84a3a307fda5e58d"
+      url "https://github.com/uniba-commons/serai/releases/download/v0.2.0/serai-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ff4e780dfb1d827d6cf4f692d86bad6a94d50dcd26f1db213543a0c8291d0cc2"
     else
-      url "https://github.com/uniba-commons/serai/releases/download/v0.1.0/serai-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "81f2f7ad8b322c03fae69a1f332b5246567197bebd52c80312e9a16a87e96367"
+      url "https://github.com/uniba-commons/serai/releases/download/v0.2.0/serai-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8e27aaae1cf1a19efb699dc864bafa080c8acd6c1c0e31c9e38a92cbe6117e35"
     end
   end
 
